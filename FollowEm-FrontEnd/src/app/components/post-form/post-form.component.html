@@ -1,0 +1,30 @@
+
+    <div class="card" style="
+    background-color: #F0F7F4; 
+    border: 3px solid #70abaf; 
+    width: 70vw; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%">
+<form class="card-body" #postForm="ngForm" (submit)="onSubmit()">
+<label for="" class="text-center">Title</label>
+<input 
+type="text" 
+name="title" 
+id="title"
+#title="ngModel"
+[(ngModel)]= "postFormModel.title"
+class="form-control" /> 
+<label for="" class="text-center">Content</label>
+<textarea  
+name="content" 
+id="content"
+cols="20"
+rows="12"
+#content="ngModel"
+[(ngModel)]="postFormModel.content" 
+class="form-control" >Enter content here</textarea>
+<br />
+<input type="submit" value="Submit" class="submit-button" />
+</form>
+</div>

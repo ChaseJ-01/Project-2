@@ -1,0 +1,9 @@
+.list-colors {
+    background-color: #70abaf;
+    margin-top: 2%;
+    border-radius: 3px;
+}
+
+.list-colors:hover {
+    background-color: #F0F7F4;
+}

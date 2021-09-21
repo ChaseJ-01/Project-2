@@ -1,0 +1,10 @@
+.buttons-flex {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.text-lightblue{
+    color: #F0F7F4;
+}

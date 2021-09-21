@@ -1,0 +1,30 @@
+
+    <div class="card" style="
+    background-color: #F0F7F4; 
+    border: 3px solid #70abaf; 
+    width: 70vw; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%">
+    <div class="text-center text-danger">{{error && error}}</div>
+<form class="card-body" #loginForm="ngForm" (submit)="onSubmit()">
+<label for="" class="text-center">Email</label>
+<input 
+type="email" 
+name="email" 
+id="email"
+#name="ngModel"
+[(ngModel)]="loginModel.email" 
+class="form-control" />
+<label for="" class="text-center">Password</label>
+<input 
+type="password" 
+name="password" 
+id="password"
+#password="ngModel"
+[(ngModel)]="loginModel.password" 
+class="form-control" />
+<br />
+<input type="submit" value="Sign In" class="profile-button" />
+</form>
+</div>

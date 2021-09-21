@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+.sidebar-wrapper {
+    background-color: #32292F;
+    padding: 2%;
+    overflow: auto;
+    border-left: 3px solid #FFA69E;
+    border-right: 3px solid #FFA69E;
+    border-bottom: 3px solid #FFA69E;
+    border-radius: 3px;
+}
+
+.post-style{
+    background-color: #F0F7F4;
+    border: 3px solid #70abaf;
+}
+
+.posts-wrapper {
+    padding: 3%;
+    width: 50vw;
+}
+
+.profile-button {
+    background-color: #F0F7F4;
+    border-radius: 5px;
+    padding: 2px, 10px;
+    border: 0px;
+    margin: 5px;
+}
+
+.profile-button:hover {
+    background-color: #70abaf;
+}

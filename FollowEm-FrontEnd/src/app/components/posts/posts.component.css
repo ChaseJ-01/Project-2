@@ -1,0 +1,20 @@
+.post-style{
+    background-color: #F0F7F4;
+    border: 3px solid #70abaf;
+}
+
+.posts-wrapper {
+    padding: 3%;
+}
+
+.follow-button {
+    background-color: #70abaf;
+    border-radius: 5px;
+    padding: 2px, 10px;
+    border: 0px;
+    margin: 5px;
+}
+
+.follow-button:hover {
+    background-color: #F0F7F4;
+}

@@ -1,0 +1,51 @@
+
+    <div class="card" style="
+    background-color: #F0F7F4; 
+    border: 3px solid #70abaf; 
+    width: 70vw; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%">
+<form class="card-body" #signinForm="ngForm" (submit)="onSubmit()">
+<label for="" class="text-center">Email</label>
+<input 
+type="text" 
+name="email" 
+id="email"
+#email="ngModel"
+[(ngModel)]= "userModel.email"
+class="form-control" />
+<label for="" class="text-center">Name</label>
+<input 
+type="text" 
+name="name" 
+id="name"
+#name="ngModel"
+[(ngModel)]="userModel.name" 
+class="form-control" />
+<label for="" class="text-center">Expertise</label>
+<input 
+type="text" 
+name="expertise" 
+id="expertise"
+#expertise="ngModel"
+[(ngModel)]="userModel.expertise" 
+class="form-control" />
+<label for="" class="text-center">Password</label>
+<input 
+type="password" 
+name="password" 
+id="password"
+#password="ngModel"
+[(ngModel)]="userModel.password" 
+class="form-control" />
+<label for="" class="text-center">Confirm Password</label>
+<input 
+type="password"
+id="confirmPassword" 
+name="password_confirm" 
+class="form-control" />
+<br />
+<input type="submit" value="Sign Up" class="profile-button" />
+</form>
+</div>

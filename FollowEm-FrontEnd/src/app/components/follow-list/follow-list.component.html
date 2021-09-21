@@ -1,0 +1,7 @@
+<div class="sidebar-wrapper">
+    <ul class="list-group" style="overflow: auto;">
+        <li class="list-group-item list-group-item-action justify-content-between align-items-center list-colors list-size" *ngFor="let follow of followedUsers" (click)="viewProfile(follow.id)">
+            {{ follow.name }}
+        </li>
+    </ul>
+</div>

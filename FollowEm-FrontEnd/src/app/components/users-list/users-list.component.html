@@ -1,0 +1,11 @@
+
+<div class="container-fluid sidebar-wrapper">
+    <h5 class="text-danger text-center">{{ error && error}}</h5>
+<div *ngFor="let y of z" class="card m-4 p-2 user-list-style">   
+    <p>Name: {{ y.name }}</p>
+    <p>Expertise: {{ y.expertise }}</p>
+    <form (submit)="submitFollow(y.id)">
+        <input type="submit" value="View Posts" class="profile-button"/>
+    </form>
+</div>
+</div>
